@@ -1,7 +1,7 @@
 Table of content
 
 | Topic                                                      | Description                                                                                 |
-| ---------------------------------------------------------- | ------------------------------------------------------------------------------------------- |
+|------------------------------------------------------------|---------------------------------------------------------------------------------------------|
 | [[NativeThreadStream]]                                     | Avoids pre-allocating large arrays by using block-based thread-safe streaming.              |
 | [[DynamicHashMap]]                                         | Embeds a hash map directly into entity buffers avoiding external allocations.               |
 | [[DynamicMultiHashMap]]                                    | Embeds a multi-value hash map into entity buffers.                                          |
