@@ -3,6 +3,7 @@
 Embeds a hash map directly into entity buffers avoiding external allocations.
 
 **Understanding & Use Case:** Standard `DynamicBuffer<T>` is a flat array, meaning looking up a specific element is $O(N)$. `DynamicHashMap` uses the raw bytes of a `DynamicBuffer` to store a fully functional Hash Map directly *inside* the entity.
+
 **Use Case:** An RPG inventory system where an entity needs fast $O(1)$ lookups to check the quantity of a specific Item ID.
 
 ```csharp

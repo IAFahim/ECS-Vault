@@ -3,6 +3,7 @@
 Avoids pre-allocating large arrays by using block-based thread-safe streaming.
 
 **Understanding & Use Case:** Unity's built-in NativeStream requires you to know exactly how many items each thread will write beforehand (by iterating twice). NativeThreadStream bypasses this limitation, allowing you to write dynamically sized data from parallel jobs directly into thread-local blocks without prior counting.  
+
 **Use Case:** Gathering an unknown number of target entities (e.g., raycast hits, visible enemies) from a parallel job into a single stream, then reading them back.
 
 
@@ -14,7 +15,8 @@ using Unity.Entities;
 using BovineLabs.Core.Collections;
 
 public partial struct NativeThreadStreamExampleSystem : ISystem
-{[BurstCompile]
+{
+	[BurstCompile]
     public void OnUpdate(ref SystemState state)
     {
         // 1. Allocate the stream (TempJob since we pass to jobs)

@@ -3,6 +3,7 @@
 Embeds a multi-value hash map into entity buffers.
 
 **Understanding & Use Case:** Similar to `DynamicHashMap`, but allows storing multiple values against a single key, right inside an entity's dynamic buffer.
+
 **Use Case:** A buff/debuff system. An entity might have multiple status effects applied by the same caster (Key = Caster Entity ID, Value = Effect ID).
 
 ```csharp
