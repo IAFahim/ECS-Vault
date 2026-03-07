@@ -13,6 +13,8 @@ using Unity.Burst;
 using Unity.Collections;
 using Unity.Entities;
 using BovineLabs.Core.Collections;
+using Unity.Jobs;
+using Unity.Transforms;
 
 public partial struct NativeThreadStreamExampleSystem : ISystem
 {
