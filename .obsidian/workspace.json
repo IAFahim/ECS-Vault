@@ -94,6 +94,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +104,7 @@
                 "unlinkedCollapsed": true
               },
               "icon": "links-coming-in",
-              "title": "Backlinks"
+              "title": "Backlinks for README"
             }
           },
           {
@@ -179,13 +180,18 @@
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "bases:Create new base": false
+      "bases:Create new base": false,
+      "sample-plugin:Sample": false
     }
   },
   "active": "5e1ebf0497abab31",
   "lastOpenFiles": [
     "Bovine-Labs-Topics/NativeThreadStream.md",
     "README.md",
+    "Bovine-Labs-Topics/UntypedDynamicBuffer.md",
+    "Hydrodynamics.md",
+    "Bovine-Labs-Topics/DynamicMultiHashMap.md",
+    "Bovine-Labs-Topics/DynamicHashMap.md",
     "Table.base",
     "app_tmp3.py~",
     "app_tmp3.py",
@@ -196,8 +202,6 @@
     "test_pixel_perfect.py~",
     "test_pixel_perfect.py",
     "Bovine Labs Topics/NativeThreadStream.md~",
-    "Bovine-Labs-Topics/DynamicMultiHashMap.md",
-    "Bovine-Labs-Topics/DynamicHashMap.md",
     "Bovine-Labs-Topics/DynamicHashSet.md",
     "Untitled.canvas",
     "Bovine-Labs-Topics/AabbExtensions.md",
@@ -218,7 +222,6 @@
     "Bovine-Labs-Topics/ArchetypeChunk.GetNativeArrayReadOnly.md",
     "Bovine-Labs-Topics/NativeArrayExtensions.ElementAtRO.md",
     "Bovine-Labs-Topics/MemoryLabelAllocator.md",
-    "Bovine-Labs-Topics/World.IsClientWorld.md",
-    "Bovine-Labs-Topics/FixedArray.md"
+    "Bovine-Labs-Topics/World.IsClientWorld.md"
   ]
 }
